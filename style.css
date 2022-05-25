@@ -5,7 +5,7 @@
   margin: 0px;
 }
 
-body {
+main {
   height: 100vh;
   background: hsl(212, 45%, 89%);
   display: grid;
@@ -31,9 +31,10 @@ body {
   border-radius: 10px;
 }
 
-.card h2 {
+.card h1 {
   color: hsl(218, 44%, 22%);
   font-weight: bold;
+  font-size: 1.5rem;
 
 }
 
@@ -42,7 +43,7 @@ body {
   font-size: 0.937rem;
 }
 
-.card h2,
+.card h1,
 .card p {
   padding: 0px 10px;
 }
